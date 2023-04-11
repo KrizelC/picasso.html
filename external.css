@@ -1,0 +1,103 @@
+.top-row {
+    display: flex;
+    height: 100px;
+    margin-bottom: 10px;
+
+}.top-row > div {
+background-color: skyblue;
+flex: 1;
+}
+
+.top-row > div:nth-child(2) {
+    margin: 0 10px 0 10px;
+}
+
+.mid-row {
+    height: 400px;
+    background-color: skyblue;
+    margin-bottom: 10px;
+}
+
+.bottom-row {
+    height: 20px;
+    background-color: yellowgreen;
+}
+
+.circle {
+    width: 65px;
+    height: 65px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px; top: 20px;
+}
+
+.circle1 {
+    width: 65px;
+    height: 65px;
+    background-color: salmon;
+    border-radius: 50%;
+    position: absolute;
+    left: 280px; top: 70px;
+}
+
+.circle2 {
+    width: 30px;
+    height: 30px;
+    background-color: salmon;
+    border-radius: 50%;
+    position: absolute;
+    left: 360px; top: 30px;
+}
+
+.circle3 {
+    width: 30px;
+    height: 30px;
+    background-color: salmon;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px; top: 20px;
+}
+
+.circle4 {
+    width: 30px;
+    height: 30px;
+    background-color: salmon;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px; top: 80px;
+}
+
+.circle5 {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    left: 180px; top: 150px;
+}
+.triangle {
+    position: relative;
+    left: 770px; top: -80px;
+    width: 0;
+    height: 0;
+    z-index: 0;
+    border-left: 180px solid transparent;
+    border-right: 180px solid transparent;
+    border-bottom: 460px solid green;
+}
+
+.triangle1 {
+    position: relative;
+    left: 940px; top: -380px;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 300px solid yellowgreen;
+}
+
+form {
+    margin-top: 10px;
+}
